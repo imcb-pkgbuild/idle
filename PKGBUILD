@@ -32,9 +32,9 @@ package() {
     install -D -m644 -t "${pkgdir}/usr/share/applications" ${pkgname}.desktop
     install -D -m644 -t "${pkgdir}/usr/share/man/man1" ${pkgname}.1
 
-    _pythonver=$(python -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')
     for _icon in 16 32 48 256; do
         _icon_dir="${pkgdir}/usr/share/icons/hicolor/${_icon}x${_icon}/apps"
-        install -D -m644 "/usr/lib/python${_pythonver}/idlelib/Icons/idle_${_icon}.png" "${_icon_dir}/${pkgname}.png"
+        install -d "${_icon_dir}"
+        ln -s "/usr/lib/python${pkgver}/idlelib/Icons/idle_${_icon}.png" "${_icon_dir}/${pkgname}.png"
     done
 }
