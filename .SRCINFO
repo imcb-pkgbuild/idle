@@ -11,6 +11,8 @@ pkgbase = idle
 	provides = idle3
 	provides = python-idle
 	source = idle.desktop
+	source = idle.1
 	sha256sums = 1e8c56ac32b2376da4221cd94b3f255b20d27977b593373808f664c0b968697f
+	sha256sums = 79fb08b181f6744905b231aca17d283c80d0434f25b25355825eb2120c7e8e91
 
 pkgname = idle
