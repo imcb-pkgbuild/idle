@@ -1,8 +1,8 @@
 # Maintainer: imcb <irismessage@protonmail.com>
 
 pkgname='idle'
-pkgver=3.11
-pkgrel=2
+pkgver=3.14
+pkgrel=1
 pkgdesc='Python Integrated Development and Learning Environment (desktop entry)'
 arch=('any')
 url='https://packages.debian.org/stable/python/idle'

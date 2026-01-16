@@ -1,7 +1,7 @@
 pkgbase = idle
 	pkgdesc = Python Integrated Development and Learning Environment (desktop entry)
-	pkgver = 3.11
-	pkgrel = 2
+	pkgver = 3.14
+	pkgrel = 1
 	url = https://packages.debian.org/stable/python/idle
 	arch = any
 	license = PSF-2.0
